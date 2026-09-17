@@ -1,0 +1,20 @@
+# conda/virtual environment (create with: conda create -p ./env python=3.12)
+env/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# editor/OS noise
+.vscode/
+.idea/
+*.swp
+.DS_Store
