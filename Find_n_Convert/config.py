@@ -7,8 +7,10 @@ need to change.
 from pathlib import Path
 
 # ---- Paths -----------------------------------------------------------
-RAW_DATA_DIR = Path("/mnt/xnat/NIBS-CP/arc001")                          # where SCANS/ folders live
-PROJECT_DIR  = Path("/mnt/projects/NIBS-CP_BIDS/2.0")
+# DEBUG: originally /mnt/xnat/NIBS-CP/arc001 and /mnt/projects/NIBS-CP_BIDS/2.0
+REPO_DIR     = Path(__file__).resolve().parents[1]
+RAW_DATA_DIR = REPO_DIR / "debug_rawdata"                                # where SCANS/ folders live
+PROJECT_DIR  = REPO_DIR / "debug_preprocessing" / "debug_nifti"
 
 BIDS_DIR     = PROJECT_DIR / "Dataset_2.0"
 INFO_DIR     = PROJECT_DIR / "Dataset_info_2.0"
