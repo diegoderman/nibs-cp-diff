@@ -2,6 +2,9 @@
 debug_preprocessing/
 debug_rawdata/
 
+# Claude Code project instructions
+CLAUDE.md
+
 # conda/virtual environment (create with: conda create -p ./env python=3.12)
 env/
 
