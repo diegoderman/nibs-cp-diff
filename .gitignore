@@ -1,3 +1,7 @@
+# PRIVATE DATA CANNOT LEAVE CLUSTER
+debug_preprocessing/
+debug_rawdata/
+
 # conda/virtual environment (create with: conda create -p ./env python=3.12)
 env/
 

@@ -1,0 +1,11 @@
+name: /mnt/projects/NIBS-CP/nibs-cp-diff/env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - dcm2niix
+  - numpy
+  - pydicom
+  - matplotlib
+  - pandas
+prefix: /mnt/projects/NIBS-CP/nibs-cp-diff/env

@@ -22,8 +22,9 @@ fi
 
 ##### 1. DICOM to BIDS (NIfTI) conversion
 
-$DICOM2NIIX_BIN -f %p_%s -o $NIBS_CP_BIDS $NIBS_CP_XNAT
+$DICOM2NIIX_BIN -f %i_%p_%s -o $NIBS_CP_BIDS $NIBS_CP_XNAT
 
+exit 0
 ##### 2. First time participant database creation
 
 NIBS_DB_BASE="$NIBS_DB_DIR/sessions"
